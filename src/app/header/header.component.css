@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Dynalight&display=swap');
+
+#header {
+  font-family: 'Dynalight', cursive;
+}
+#row-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+  padding: 10px;
+}
+
+#logo {
+  color: white;
+  font-size: 3rem;
+}
+
+#logo span {
+  color: red;
+}
+
+#navbar {
+  list-style: none;
+  display: flex;
+}
+
+#navbar li {
+  text-decoration: none;
+  display: inline-block;
+  padding-left: 3rem;
+
+  color: white;
+}
+
+#navbar a {
+  text-decoration: none;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: white;
+}
+
+#navbar a:hover
+/* #navbar a:active */ {
+  color: red;
+}
+
+#row-bot {
+  background: url(../../assets/images/row-bot-bg.jpg) center top repeat-x;
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+  padding: 10px;
+}
+
+#row-bot span {
+  color: black;
+}

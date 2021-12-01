@@ -1,1 +1,14 @@
-<p>header works!</p>
+<div id="header">
+  <div id="row-top">
+    <div id="logo">Catering<span>.com</span></div>
+
+    <ul id="navbar">
+      <li *ngFor="let listNavItem of listNav">
+        <a routerLink="/{{ listNavItem | lowercase }}">
+          {{ listNavItem }}
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div id="row-bot">Impressive Selection <span>for any Occasion</span></div>
+</div>

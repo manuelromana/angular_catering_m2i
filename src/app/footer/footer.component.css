@@ -1,0 +1,18 @@
+#footer {
+  text-align: center;
+  color: white;
+  background-color: black;
+  margin-top: 1rem;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+#footer span {
+  display: block;
+}
+
+#footer a {
+  text-decoration: none;
+  color: red;
+  text-decoration: underline;
+}
