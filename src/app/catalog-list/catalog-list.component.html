@@ -1,0 +1,14 @@
+<h3>Catalogue</h3>
+<div id="container-list_catalog">
+  <div *ngFor="let plat of plats" id="elt-list_catalog">
+    <div id="container-img">
+      <img src="../../assets/images/page3-img{{ plat.id }}.jpg" />
+    </div>
+    <h5 id="plat-title">{{ plat.name }}</h5>
+    <p id="description">{{ plat.description }}</p>
+    <p id="price">Price : {{ plat.price }} $</p>
+    <a>
+      <button>Add to Cart</button>
+    </a>
+  </div>
+</div>

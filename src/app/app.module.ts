@@ -11,6 +11,9 @@ import { ShippingComponent } from './shipping/shipping.component';
 import { FaqComponent } from './faq/faq.component';
 import { ContactComponent } from './contact/contact.component';
 import { AppRoutingModule } from './app-routing.module';
+import { DetailsListComponent } from './details-list/details-list.component';
+import { ImgMenuListComponent } from './img-menu-list/img-menu-list.component';
+import { CatalogListComponent } from './catalog-list/catalog-list.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { AppRoutingModule } from './app-routing.module';
     MenuComponent,
     ShippingComponent,
     FaqComponent,
-    ContactComponent
+    ContactComponent,
+    DetailsListComponent,
+    ImgMenuListComponent,
+    CatalogListComponent
   ],
   imports: [
     BrowserModule,
