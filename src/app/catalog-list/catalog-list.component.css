@@ -10,11 +10,14 @@ h3 {
   margin: auto;
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 #elt-list_catalog {
   width: 22%;
   margin: 10px;
+  margin-bottom: 30px;
+  margin-left: 0;
 }
 #img-container {
 }
@@ -31,4 +34,14 @@ img {
   font-size: 13px;
 }
 #price {
+  color: #c42e02;
+  font-weight: bold;
+}
+
+.button-cart {
+  text-decoration: none;
+  color: white;
+  background: url(../../assets/images/button1-tail.gif) 0 0 repeat-x #c42e02;
+  padding: 10px;
+  font-size: 13px;
 }
