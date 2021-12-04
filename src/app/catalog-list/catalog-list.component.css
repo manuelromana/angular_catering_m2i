@@ -25,13 +25,15 @@ img {
   width: 100%;
 }
 
-#title {
+#plat-title {
   color: #7f7f7f;
   font-size: 13px;
+  margin: 0 0 5px 0px;
 }
 #description {
   color: #7f7f7f;
   font-size: 13px;
+  margin: 0;
 }
 #price {
   color: #c42e02;

@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Plat } from '../plat_interface';
 import { PLATS } from '../mock_plat';
+import { PlatService } from '../plat.service';
 
 @Component({
   selector: 'app-catalog-list',
@@ -7,8 +9,13 @@ import { PLATS } from '../mock_plat';
   styleUrls: ['./catalog-list.component.css'],
 })
 export class CatalogListComponent implements OnInit {
-  plats = PLATS;
-  constructor() {}
+  plats: Plat[] = [];
+  constructor(private platsService: PlatService) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.getPlats();
+  }
+  getPlats(): void {
+    this.platsService.getPlats().subscribe(plats => (this.plats = plats));
+  }
 }
